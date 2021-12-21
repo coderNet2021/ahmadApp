@@ -15,7 +15,7 @@ namespace DataAccessLayer.Data
         {
         }
 
-        public DbSet<Task> Tasks { get; set; }
+        
         public DbSet<Request> Requests { get; set; }
     }
 }
